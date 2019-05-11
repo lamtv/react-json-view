@@ -151,7 +151,8 @@ const getDefaultThemeStyling = theme => {
             borderRadius: constants.objectSizeBorderRadius,
             fontStyle: constants.objectSizeFontStyle,
             margin: constants.objectSizeMargin,
-            cursor: 'default'
+            cursor: 'default',
+            userSelect: 'none'
         },
         'data-type-label': {
             fontSize: constants.dataTypeFontSize,
